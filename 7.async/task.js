@@ -32,7 +32,7 @@ class AlarmClock {
 
 	getCurrentFormattedTime() {
 		const now = new Date();
-		return now.toTimeString().slice(0, 5); // HH:MM
+		return now.toTimeString().slice(0, 5);
 	}
 
 	start() {
